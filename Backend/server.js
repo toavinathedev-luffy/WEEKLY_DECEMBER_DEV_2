@@ -3,6 +3,10 @@ const http = require("http");
 const socketIO = require("socket.io");
 const mongoose = require("mongoose");
 const dotenv = require("dotenv");
+// app.js
+
+import "./firebase/firebase.config"; // Importe la configuration Firebase
+// Le reste de votre code...
 
 dotenv.config();
 
